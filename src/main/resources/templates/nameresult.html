@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Name result</title>
+</head>
+<body>
+<tbody align="center">
+
+<tr th:each="person : ${persons}">
+
+    <br>
+   name :  <td><span th:text="${person.name}"> </span></td>
+    <br>
+  gender :   <td><span th:text="${person.gender}"> </span></td>
+    <br>
+  Probability :   <td><span th:text="${person.probability}"> </span></td>
+    <br>
+  Count :    <td><span th:text="${person.count}"> </span></td>
+</tr>
+</tbody>
+</body>
+</html>

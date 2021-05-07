@@ -1,4 +1,4 @@
-package com.example.frontenddel;
+package com.example.frontenddel.Model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
